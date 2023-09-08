@@ -34,7 +34,10 @@ public class Core {
             Random random = new Random();
             int randomNumber = random.nextInt(10);
 
-            generatorList.add(randomNumber < 8 ? new SilverGenerator() : new GoldGenerator());
+            if (randomNumber < 8)
+                generatorList.add(new SilverGenerator());
+            else
+                generatorList.add(new GoldGenerator());
 
             myGenerator = generatorList.get(i);
 
