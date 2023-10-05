@@ -16,7 +16,7 @@ Viewer привязал к программе через интерфейс и �
 
 ---
 
-PHP-файлы проекта находятся в папке [messenger](https://github.com/biramax/Architecture/tree/main/Seminar-11/messenger).
+PHP-файлы проекта находятся в папке [messenger](https://github.com/biramax/Architecture/tree/main/Seminar-11/messenger). Там же находится дамп базы данных mysql.
 
 Use-case, UML и ERD диаграммы проекта находятся в папке [diagrams](https://github.com/biramax/Architecture/tree/main/Seminar-11/diagrams).
 
