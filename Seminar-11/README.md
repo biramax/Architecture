@@ -2,23 +2,29 @@
 
 Создал проект в веб-интерфейсе на PHP, т.к. немного знаком с этим языком. 
 
-PHP-файлы проекта находятся в папке [messenger](/messenger).
+PHP-файлы проекта находятся в папке [messenger](https://github.com/biramax/Architecture/tree/main/Seminar-11/messenger).
+
+Use-case, UML и ERD диаграммы проекта находятся в папке [diagrams](https://github.com/biramax/Architecture/tree/main/Seminar-11/diagrams).
+
+Дизайн-макет находится в папке [design](https://github.com/biramax/Architecture/tree/main/Seminar-11/design).
+
+Скриншоты реализованного проекта находятся в папке [screenshots](https://github.com/biramax/Architecture/tree/main/Seminar-11/screenshots).
 
 Реализовал два экрана: 
 
 1) страницу со всеми чатами
 
-<img src="Скриншот-реализованного-проекта-1.jpg" width="600"/>
+<img src="screenshots/Скриншот-реализованного-проекта-1.jpg" width="600"/>
 
 2) конкретный чат
 
-<img src="Скриншот-реализованного-проекта-2.jpg" width="600"/>
+<img src="screenshots/Скриншот-реализованного-проекта-2.jpg" width="600"/>
 
 Ввиду нехватки времени не стал реализовывать регистрацию и авторизацию пользователей, добавление ими сообщений в базу данных. Заранее заготовил в базе данных таблицу с юзерами и таблицу с их сообщениями.
 
-![](Скриншот-таблицы-БД-users.jpg)
+![](screenshots/Скриншот-таблицы-БД-users.jpg)
 
-![](Скриншот-таблицы-БД-messages.jpg)
+![](screenshots/Скриншот-таблицы-БД-messages.jpg)
 
 Создал и связал три основных класса по паттерну MVP: Viewer, Presenter и Model.
 
