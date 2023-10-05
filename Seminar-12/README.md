@@ -32,7 +32,7 @@
 
 Спроектированные два экрана программы разработаны на базе веб-интерфейса на языке PHP.
 
-PHP-файлы проекта находятся в папке [messenger](https://github.com/biramax/Architecture/tree/main/Seminar-12/messenger). Там же находится дамп базы данных mysql.
+PHP-файлы проекта находятся в папке [**messenger**](https://github.com/biramax/Architecture/tree/main/Seminar-12/messenger). Там же находится [**дамп**](https://github.com/biramax/Architecture/tree/main/Seminar-12/messenger/Дамп-базы-данных.sql) базы данных mysql.
 
 Скриншоты реализованного проекта:
 
